@@ -10,11 +10,11 @@ const History = ({ historyExpressions, setHistoryExpressions }) => {
   return (
     <ScrollView contentContainerStyle={styles.topScrollView}>
       <View style={styles.topViewContainer}>
-        {localHistoryExpressions.map((expressionInfo) => {
+        {localHistoryExpressions.map((expressionInfo, index) => {
           const { expression, result } = expressionInfo;
 
           return (
-            <View style={styles.expressionContainer}>
+            <View style={styles.expressionContainer} key={index}>
               <Text style={styles.expressionText}>
                 {expression.map((expressionItem) => `${expressionItem} `)} = {result}
               </Text>

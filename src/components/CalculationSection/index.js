@@ -21,6 +21,7 @@ const CalculationSection = ({ navigation, isPortrait, historyExpressions, setHis
         {isPortrait && (
           <View style={styles.historyButtonContainer}>
             <Button
+              testID="history"
               contentStyle={styles.historyButtonContent}
               onPress={() =>
                 navigation.navigate(HISTORY, {

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HistorySection /> history section with expressions 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "backgroundColor": "#393558",
+          "display": "flex",
+          "flex": 1,
+          "height": "100%",
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 20,
+            }
+          }
+        >
+          5 
+          + 
+          6 
+           = 
+          11
+        </Text>
+      </View>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F66965",
+          "display": "flex",
+          "height": 60,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+          }
+        }
+      >
+        CLEAR
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`<HistorySection /> renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "backgroundColor": "#393558",
+          "display": "flex",
+          "flex": 1,
+          "height": "100%",
+          "paddingLeft": 10,
+          "paddingRight": 10,
+        }
+      }
+    />
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F66965",
+          "display": "flex",
+          "height": 60,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "100%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+          }
+        }
+      >
+        CLEAR
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

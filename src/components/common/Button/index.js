@@ -3,9 +3,10 @@ import React from 'react';
 import { TouchableOpacity, Text } from 'react-native';
 import styles from './styles';
 
-const Button = ({ buttonStyle, contentStyle, children, disabled, pressHandlerParams, onPress }) => {
+const Button = ({ testID, buttonStyle, contentStyle, children, disabled, pressHandlerParams, onPress }) => {
   return (
     <TouchableOpacity
+      testID={testID}
       style={{
         ...styles.button,
         ...buttonStyle,
@@ -16,6 +17,13 @@ const Button = ({ buttonStyle, contentStyle, children, disabled, pressHandlerPar
       <Text style={{ ...contentStyle }}>{children}</Text>
     </TouchableOpacity>
   );
+};
+
+Button.defaultProps = {
+  buttonStyle: {},
+  contentStyle: {},
+  pressHandlerParams: {},
+  onPress: () => null,
 };
 
 export default Button;
